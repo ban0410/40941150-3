@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>校園生活問卷</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">校園生活問卷</h1>
+            <p class="lead">制裁校園霸凌從你我做起 專線:0800-200-885</p>
+            <hr class="my-2">
+        </div>
+    </div>
+    <div style="margin: 30px;">
+        <form action="check.php" method="post">
+            <div class="form-group">
+                <label for="name">● 班級
+                </label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="請輸入班級"
+                    aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+                <label for="password">● 姓名</label>
+                <input type="text" name="password" id="password" class="form-control" placeholder="請輸入姓名"
+                    aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+                <label for="date">● 學號</label>
+                <input type="text" name="date" id="date" class="form-control" placeholder="請輸入學號"
+                    aria-describedby="helpId">
+            </div>
+            <p>
+                ● 性別
+            </p>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="1" id="1" value="W">
+                男
+            </label>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="1" id="1" value="W">
+                女
+            </label>
+            <p></p>
+            <p>
+                ● 過去6個月內我曾經被同學毆打
+            </p>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="2" id="2" value="W">
+                是
+            </label>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="2" id="2" value="W">
+                否
+            </label>
+            <p></p>
+            <p>
+                ● 過去6個月內，我曾經被同學勒索金錢或物品
+            </p>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="3" id="sex" value="W">
+                是
+            </label>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="3" id="sex" value="W">
+                否
+            </label>
+            <p></p>
+            <p>
+                ● 過去6個月內，我曾經被同學惡意孤立、排擠
+            </p>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="4" id="sex" value="W">
+                是
+            </label>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="4" id="sex" value="W">
+                否
+            </label>
+            <p></p>
+            <p>
+                ● 過去6個月，我曾經被同學惡意謠言中傷
+            </p>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="5" id="sex" value="W">
+                是
+            </label>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="5" id="sex" value="W">
+                否
+            </label>
+            <p></p>
+            <p>
+                ● 過去6個月內，我曾被同學以網路傷害
+            </p>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="6" id="sex" value="W">
+                是
+            </label>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="6" id="sex" value="W">
+                否
+            </label>
+            <p></p>
+            <p>
+                ● 過去6個月，我曾經被同學惡意的語言恐嚇或威脅
+            </p>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="7" id="sex" value="W">
+                是
+            </label>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="7" id="sex" value="W">
+                否
+            </label>
+            <p></p>
+            <p>
+                ● 過去6個月，我曾看到有同學發生上述任何一項行為
+            </p>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="8" id="sex" value="W">
+                是
+            </label>
+            <label class="form-check-label ml-5">
+                <input type="radio" class="form-check-input" name="8" id="sex" value="W">
+                否
+            </label>
+            <p></p>
+            <p>
+                ● 續上一題，如你知道有發生上述曾經被傷害過的同學，你是否願意幫助他們，提供他們的姓名及受害類型，有利於學校能快速地協助他們走出陰霾。(可複選)
+            </p>
+            <div class="form-group" style="margin-left:30px;">
+                <label for="password">被害同學姓名</label>
+                <input type="text" name="password" id="password" class="form-control" placeholder="請輸入姓名"
+                    aria-describedby="helpId">
+            </div>
+            <div class="form-check form-check-inline" style="margin-left:30px;">
+                <p style="margin-top: 13px;">
+                    被傷害方式 :
+                </p>
+                <label class="form-check-label ml-4">
+                    <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> 被毆打
+                </label>
+                <label class="form-check-label ">
+                    <input class="form-check-input ml-2" type="checkbox" name="" id="" value="checkedValue"> 被勒索
+                </label>
+                <label class="form-check-label ">
+                    <input class="form-check-input ml-2" type="checkbox" name="" id="" value="checkedValue"> 被孤立排擠
+                </label>
+                <label class="form-check-label ">
+                    <input class="form-check-input ml-2" type="checkbox" name="" id="" value="checkedValue"> 被語言恐嚇威脅
+                </label>
+                <label class="form-check-label ">
+                    <input class="form-check-input ml-2" type="checkbox" name="" id="" value="checkedValue"> 被謠言中傷
+                </label>
+                <label class="form-check-label ">
+                    <input class="form-check-input ml-2" type="checkbox" name="" id="" value="checkedValue"> 被網路傷害
+                </label>
+            </div>
+            <div class="form-group" style="margin-left: 30px;">
+                <label for="date">被傷害時間 :</label>
+                <input type="date" name="date" id="date" class="form-control" placeholder="請輸入日期"
+                    aria-describedby="helpId">
+            </div>
+            <input name="" id="" class="btn btn-primary" type="button" value="送出"style="margin-left:20px;">
+            <p class="text-center" style="color: gray;">
+                感謝你的回答
+            </p>
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
